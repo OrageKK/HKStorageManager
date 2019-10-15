@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit'
+  s.requires_arc = true
+  s.frameworks = 'UIKit'
   s.dependency 'YYCache','1.0.4'
 end

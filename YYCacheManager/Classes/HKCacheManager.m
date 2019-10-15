@@ -8,16 +8,16 @@
 
 #import "HKCacheManager.h"
 #import "YYCache.h"
-@interface SWCacheManager()
+@interface HKCacheManager()
 @property (nonatomic,strong) YYCache *shareDataCache;
 @end
 
 @implementation HKCacheManager
 + (instancetype)manager {
-    static SWCacheManager *instance = nil;
+    static HKCacheManager *instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [[SWCacheManager alloc] init];
+        instance = [[HKCacheManager alloc] init];
     });
     return instance;
 }
