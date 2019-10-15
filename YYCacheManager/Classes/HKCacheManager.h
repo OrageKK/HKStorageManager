@@ -58,5 +58,5 @@ typedef NS_ENUM(NSInteger, ShareDataType) {
 /**
  清空本地存储
  */
-- (void)clearAll;
+- (void)removeAll;
 @end

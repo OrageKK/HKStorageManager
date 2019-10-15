@@ -68,7 +68,7 @@
         }
     }
 }
-- (void)clearAll {
+- (void)removeAll {
     [self.shareDataCache removeAllObjects];
 }
 @end
