@@ -1,0 +1,6 @@
+framework module Pods_YYCacheManager_Tests {
+  umbrella header "Pods-YYCacheManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
