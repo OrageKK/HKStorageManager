@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "SWCacheManager.h"
+#import "HKCacheManager.h"
 
 FOUNDATION_EXPORT double YYCacheManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYCacheManagerVersionString[];
