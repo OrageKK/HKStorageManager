@@ -22,7 +22,7 @@ pod 'YYCacheManager'
 
 ## Author
 
-oragekk, huangkunb@enn.cn
+oragekk, oragekk@163.com
 
 ## License
 
