@@ -1,5 +1,5 @@
 PODS:
-  - HKStorageManager (0.1.0):
+  - HKStorageManager (0.2.0):
     - YYCache
   - YYCache (1.0.4)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HKStorageManager: 3649a830df729bb161581215134f01a9737c18c1
+  HKStorageManager: 7f2d9467e486325f6621d3957297f94252db68e8
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: 06b3f53bad81da293670837974f463376f7a8291

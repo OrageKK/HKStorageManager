@@ -6,44 +6,38 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		44C6D7D64C02A2CB01402F441D159F3F /* HKStorageManager */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 91FB7B0AB74F687B74339FE80F2E420F /* Build configuration list for PBXAggregateTarget "HKStorageManager" */;
-			buildPhases = (
-			);
-			dependencies = (
-				CC7841A64943FE1E93F205D225BE0B22 /* PBXTargetDependency */,
-			);
-			name = HKStorageManager;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		02B3F7473F98D0A5F211A0DD4BA29862 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4776D16AAFCFABC1A65715972B45E5 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04350AF47250CFEF6E8A0E030B887872 /* Pods-HKStorageManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D09FFBA72510CC4F36669D534B75872 /* Pods-HKStorageManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08EF900495E906F4EBA07DD5334F2D26 /* Pods-HKStorageManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E8A3159B65D276DC7B53BEC93DBA7F /* Pods-HKStorageManager_Example-dummy.m */; };
-		1C1D8CDF9A6C64F6DA4BF65DA4F79D9A /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21E268B3B2BE395BF2F0BB01B03CC /* YYCache-dummy.m */; };
-		1FCBFD6B063C89FCEA4AE7E8570B20EA /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B683C1E3BDE2ECB83F7ED4C638B44 /* YYMemoryCache.m */; };
-		2DB9E28FD161441161ABD22AD6D9576A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4442F313490F10096180CA01E9FC39 /* QuartzCore.framework */; };
-		483FFD6BE96363762FB1456F7725C9D2 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F333B74E2E2594D2AC27E4BBEBF35 /* YYKVStorage.m */; };
+		1A42301EF67C876E3207856F71BD0B5F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */; };
+		21D48CB6A8066B7C1A07B2E69A891D14 /* HKStorageManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ABC838447C349015F1B8848FA2B43C /* HKStorageManager-dummy.m */; };
+		2D3A7A0E3A56828E68F86CEAC2B36005 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */; };
+		2E3307C362A57A01E123E37F6F46AF14 /* HKStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EF8808BC06F01FD3EE60A76D325802 /* HKStorageManager.m */; };
+		34028A10FB59A720F3B48BC2DAA55EAA /* HKStorageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A30613A4481681991F172FE031989CC /* HKStorageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4454316AA814CB678B3236A33EB5643A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
 		54207A21AC9767DB3534467E3E386499 /* Pods-HKStorageManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA18FBB99A5D125944592B2560BF70 /* Pods-HKStorageManager_Tests-dummy.m */; };
-		57F6625F195FA28909C77EDD5031CB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989DCF78C7698F8574BD17877975995C /* Foundation.framework */; };
-		7FD8C203B9C60EC7C72DE623D27EE5E8 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7EAEF1DC326C25472BF9D731C9314C /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B5CE9FE192C4AAF60A8910F00BB852F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989DCF78C7698F8574BD17877975995C /* Foundation.framework */; };
-		A2889C98BA4289C4A648FBAEC4CA45BB /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C65A6B00519E426DC7A0E0A7D5BD01DA /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2B729F13B10E07CE64AFE1066A4A1F9 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A21F2BDCC45470042888CE9CD93496FB /* YYDiskCache.m */; };
-		C4585BCF5FCC10FBE0D68BFD5D9E35F3 /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CFAC957963B49FF0E237416D4AB373 /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D310A1A25444BC0166D9D1F8ACBA91C8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE6C6E338D95E1926126FDA89D243EE /* CoreFoundation.framework */; };
-		D732C38C09B640EDD4E59C8D3E251337 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 657969E3015A12DD0C4637ABCB244907 /* YYCache.m */; };
-		DC35CB13D60FC447E510CA09CD0850EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989DCF78C7698F8574BD17877975995C /* Foundation.framework */; };
-		E081A2BCA7E625121248B630F72F8122 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CD76D23F7A67EE074CB9CE50DB55F1 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57F6625F195FA28909C77EDD5031CB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
+		58CD4AEF87CC7234EA205D35B1AC7B54 /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CFAC957963B49FF0E237416D4AB373 /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C15CF6758469E316896C3A4B5A13DF7 /* HKStorageManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D95D6E3969E76387762123D24A4BC4 /* HKStorageManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6405827523465EC52794B3A0C48A7060 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A21F2BDCC45470042888CE9CD93496FB /* YYDiskCache.m */; };
+		6A564CE1CD6CD11CA6B1D0804FBA9999 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C65A6B00519E426DC7A0E0A7D5BD01DA /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E27EA106AD8C73CB240121EAA97D57B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */; };
+		740F47732D4A5412BC9D99CC9A1CBD7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */; };
+		81D5528621EA60CE49F839CB6FC94EE4 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CD76D23F7A67EE074CB9CE50DB55F1 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B5CE9FE192C4AAF60A8910F00BB852F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
+		94DF8D6E8BDAB601D936239ACB7A23B2 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7EAEF1DC326C25472BF9D731C9314C /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2D164C766A7506A307F1B441F6A182 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4776D16AAFCFABC1A65715972B45E5 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB5393D13BF5BB4437D340FEE399794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
+		A5EE73381DA1F118A465E779A82D1E4A /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 657969E3015A12DD0C4637ABCB244907 /* YYCache.m */; };
+		BC4F778F8332861F92074EC64D9AD80D /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */; };
+		D1D58F746157456D13FD0506EC0D12E5 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F333B74E2E2594D2AC27E4BBEBF35 /* YYKVStorage.m */; };
+		DB648ECE4C9C24A9F5B7BEF184BD83EA /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21E268B3B2BE395BF2F0BB01B03CC /* YYCache-dummy.m */; };
 		F0D06441EE571904D6A68E15F054AE7F /* Pods-HKStorageManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34323419314FDFFAA0ED1FAF66F2BE68 /* Pods-HKStorageManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEC00702CCB1EC26524E04017367A4BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C5733391A8F189C38E2603665685A9 /* UIKit.framework */; };
+		F2F7179F18418B677E1BC06E51C4563C /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B683C1E3BDE2ECB83F7ED4C638B44 /* YYMemoryCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C677FBE562E5686EA157B78FD87FB92 /* PBXContainerItemProxy */ = {
+		31CEEC6E5EBFF1D7D3801B2DA7DC794F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -75,30 +69,40 @@
 
 /* Begin PBXFileReference section */
 		0112E2A530C12C5D7F066A3D111B6D4D /* Pods-HKStorageManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKStorageManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		026C7EE4B52186CBBE9AEEA7CBC1B135 /* HKStorageManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HKStorageManager.xcconfig; sourceTree = "<group>"; };
 		082B683C1E3BDE2ECB83F7ED4C638B44 /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
 		0B0F333B74E2E2594D2AC27E4BBEBF35 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
 		16E8A3159B65D276DC7B53BEC93DBA7F /* Pods-HKStorageManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKStorageManager_Example-dummy.m"; sourceTree = "<group>"; };
 		21CFAC957963B49FF0E237416D4AB373 /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
+		230ED3FA942AB5F9AC2D15C4EA4A7F15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2CB21E268B3B2BE395BF2F0BB01B03CC /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
+		321EFC053ADDF736DE2702C424284799 /* HKStorageManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKStorageManager-prefix.pch"; sourceTree = "<group>"; };
 		34323419314FDFFAA0ED1FAF66F2BE68 /* Pods-HKStorageManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKStorageManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		37919D32A67B9D72E01F09B417DCA684 /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
 		48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADA039CE192E1DD8577E21E6A7805A4 /* Pods-HKStorageManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKStorageManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F24F9E8A795B0F1EE7D6C1CBEEC43AA /* Pods-HKStorageManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKStorageManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		52045E28AB6273EDC81913C321443984 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		54C02C785FFC6DBFAE130FC2823330F3 /* HKStorageManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HKStorageManager.modulemap; sourceTree = "<group>"; };
 		5A29D01BE64E4FB9646A1F5C34C927E4 /* Pods-HKStorageManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKStorageManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		614B4CEA608D3FADE4C19D5C8D0F1FBB /* Pods-HKStorageManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKStorageManager_Tests.modulemap"; sourceTree = "<group>"; };
 		657969E3015A12DD0C4637ABCB244907 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
 		67D4086D59EC9430E4819F7D0723C291 /* Pods-HKStorageManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKStorageManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C015E8C4C6A942E524A48A174EDEEF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6D09FFBA72510CC4F36669D534B75872 /* Pods-HKStorageManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKStorageManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7243C2510555DDE7631A0D2700B894B8 /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
 		739739104CCF178D6A01EB16D2CB4313 /* Pods_HKStorageManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKStorageManager_Example.framework; path = "Pods-HKStorageManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78ABC838447C349015F1B8848FA2B43C /* HKStorageManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKStorageManager-dummy.m"; sourceTree = "<group>"; };
+		7A30613A4481681991F172FE031989CC /* HKStorageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKStorageManager.h; path = HKStorageManager/Classes/HKStorageManager.h; sourceTree = "<group>"; };
+		7C0D0B238306BE0D191269A294E8ABD8 /* HKStorageManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HKStorageManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86DD992FEC310FE557934106EF430D11 /* HKStorageManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HKStorageManager.xcconfig; sourceTree = "<group>"; };
+		939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		93E949C7F269DD4E00EC9C94992BB3EA /* HKStorageManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HKStorageManager-Info.plist"; sourceTree = "<group>"; };
 		9738AA46626288C4B2C3870F15A5E1F2 /* Pods-HKStorageManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKStorageManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		98735EB4C931D03597566DE38F31481A /* HKStorageManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HKStorageManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		989DCF78C7698F8574BD17877975995C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4776D16AAFCFABC1A65715972B45E5 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
+		A0D95D6E3969E76387762123D24A4BC4 /* HKStorageManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKStorageManager-umbrella.h"; sourceTree = "<group>"; };
 		A1CA18FBB99A5D125944592B2560BF70 /* Pods-HKStorageManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKStorageManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		A21F2BDCC45470042888CE9CD93496FB /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
 		B7B13857654DAD6D6A87A47D1E0FBD75 /* Pods-HKStorageManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKStorageManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -106,28 +110,37 @@
 		C30A1AAC6A8A0834BBDFCE85598669B6 /* Pods_HKStorageManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKStorageManager_Tests.framework; path = "Pods-HKStorageManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65A6B00519E426DC7A0E0A7D5BD01DA /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
 		CC1F88BAF610D74098D26EC2DDB83EFA /* YYCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYCache-Info.plist"; sourceTree = "<group>"; };
-		CD4AE97255C0BEE57096EA95E7B69470 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D0EF8808BC06F01FD3EE60A76D325802 /* HKStorageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKStorageManager.m; path = HKStorageManager/Classes/HKStorageManager.m; sourceTree = "<group>"; };
 		D2CD76D23F7A67EE074CB9CE50DB55F1 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
 		E192FB6203133E688CFCD05D2EABEFA7 /* Pods-HKStorageManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKStorageManager_Example.modulemap"; sourceTree = "<group>"; };
 		E53F2EC1B30296AC448159F6185EB3F5 /* Pods-HKStorageManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HKStorageManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E9BFDA4EEB540116BE7ED8A958A72FD7 /* Pods-HKStorageManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKStorageManager_Example-Info.plist"; sourceTree = "<group>"; };
-		EF4442F313490F10096180CA01E9FC39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EFE6C6E338D95E1926126FDA89D243EE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		F3C5733391A8F189C38E2603665685A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
+		F900782F1E04594293EC139437401C6E /* HKStorageManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HKStorageManager.framework; path = HKStorageManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96B22318C26BA466EDACAF89D6E9086 /* Pods-HKStorageManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKStorageManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC7EAEF1DC326C25472BF9D731C9314C /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F5D5F0047B3B8F3695994AC7243EBAA /* Frameworks */ = {
+		2C00F0575CB36247E630E9BB385C33A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D310A1A25444BC0166D9D1F8ACBA91C8 /* CoreFoundation.framework in Frameworks */,
-				DC35CB13D60FC447E510CA09CD0850EF /* Foundation.framework in Frameworks */,
-				2DB9E28FD161441161ABD22AD6D9576A /* QuartzCore.framework in Frameworks */,
-				FEC00702CCB1EC26524E04017367A4BD /* UIKit.framework in Frameworks */,
+				9EB5393D13BF5BB4437D340FEE399794 /* Foundation.framework in Frameworks */,
+				6E27EA106AD8C73CB240121EAA97D57B /* UIKit.framework in Frameworks */,
+				BC4F778F8332861F92074EC64D9AD80D /* YYCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34D324FA4A2B6B1E97A1DBDFC705CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3A7A0E3A56828E68F86CEAC2B36005 /* CoreFoundation.framework in Frameworks */,
+				4454316AA814CB678B3236A33EB5643A /* Foundation.framework in Frameworks */,
+				1A42301EF67C876E3207856F71BD0B5F /* QuartzCore.framework in Frameworks */,
+				740F47732D4A5412BC9D99CC9A1CBD7F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +163,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B1BF91E6C8A95ECB46FC7726C546E9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */,
+				4399FE35D748924AE160D1AEB1F52A9D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		174B04FB7E3CE4A52E63952BD9B8C767 /* HKStorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				7A30613A4481681991F172FE031989CC /* HKStorageManager.h */,
+				D0EF8808BC06F01FD3EE60A76D325802 /* HKStorageManager.m */,
+				73E9A18C85F267AC4AA3B4A0588E440F /* Pod */,
+				1A7D327E46E90856A0290502D6CA7C47 /* Support Files */,
+			);
+			name = HKStorageManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		18DE66E02267A75B0406F97F6FDEAA3C /* YYCache */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,21 +201,29 @@
 			path = YYCache;
 			sourceTree = "<group>";
 		};
-		240CB21F508132AB01602251D9354106 /* Support Files */ = {
+		1A7D327E46E90856A0290502D6CA7C47 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				026C7EE4B52186CBBE9AEEA7CBC1B135 /* HKStorageManager.xcconfig */,
+				54C02C785FFC6DBFAE130FC2823330F3 /* HKStorageManager.modulemap */,
+				86DD992FEC310FE557934106EF430D11 /* HKStorageManager.xcconfig */,
+				78ABC838447C349015F1B8848FA2B43C /* HKStorageManager-dummy.m */,
+				93E949C7F269DD4E00EC9C94992BB3EA /* HKStorageManager-Info.plist */,
+				321EFC053ADDF736DE2702C424284799 /* HKStorageManager-prefix.pch */,
+				A0D95D6E3969E76387762123D24A4BC4 /* HKStorageManager-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HKStorageManager";
 			sourceTree = "<group>";
 		};
-		3CCEDD731DDCA5A2209EB1DC95DA6106 /* Development Pods */ = {
+		4399FE35D748924AE160D1AEB1F52A9D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7157E4639959116F437AB56944D0089A /* HKStorageManager */,
+				6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */,
+				60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */,
+				939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */,
+				E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		47BB464A4153CDF3666F7E9E7AF7CFE5 /* Targets Support Files */ = {
@@ -209,16 +251,6 @@
 			path = "Target Support Files/Pods-HKStorageManager_Tests";
 			sourceTree = "<group>";
 		};
-		7157E4639959116F437AB56944D0089A /* HKStorageManager */ = {
-			isa = PBXGroup;
-			children = (
-				73D01FF20054519B88740C004F72779D /* Pod */,
-				240CB21F508132AB01602251D9354106 /* Support Files */,
-			);
-			name = HKStorageManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		71B3A9507C40C7D7F7C13726B5C51B80 /* Pods-HKStorageManager_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,25 +268,14 @@
 			path = "Target Support Files/Pods-HKStorageManager_Example";
 			sourceTree = "<group>";
 		};
-		73D01FF20054519B88740C004F72779D /* Pod */ = {
+		73E9A18C85F267AC4AA3B4A0588E440F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				98735EB4C931D03597566DE38F31481A /* HKStorageManager.podspec */,
-				CD4AE97255C0BEE57096EA95E7B69470 /* LICENSE */,
-				52045E28AB6273EDC81913C321443984 /* README.md */,
+				7C0D0B238306BE0D191269A294E8ABD8 /* HKStorageManager.podspec */,
+				6C015E8C4C6A942E524A48A174EDEEF7 /* LICENSE */,
+				230ED3FA942AB5F9AC2D15C4EA4A7F15 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		7A26FEA90A3E498B6D7F4091786B9730 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EFE6C6E338D95E1926126FDA89D243EE /* CoreFoundation.framework */,
-				989DCF78C7698F8574BD17877975995C /* Foundation.framework */,
-				EF4442F313490F10096180CA01E9FC39 /* QuartzCore.framework */,
-				F3C5733391A8F189C38E2603665685A9 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		802717014FD8145089A98D39C2DC2511 /* Support Files */ = {
@@ -271,22 +292,12 @@
 			path = "../Target Support Files/YYCache";
 			sourceTree = "<group>";
 		};
-		B4CEE0112DEC43707A86C8D75741F2F1 /* Products */ = {
+		B09C9783CD3A6FCB7027E9CFD67A8662 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				739739104CCF178D6A01EB16D2CB4313 /* Pods_HKStorageManager_Example.framework */,
-				C30A1AAC6A8A0834BBDFCE85598669B6 /* Pods_HKStorageManager_Tests.framework */,
-				48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */,
+				174B04FB7E3CE4A52E63952BD9B8C767 /* HKStorageManager */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7A26FEA90A3E498B6D7F4091786B9730 /* iOS */,
-			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C62D92DA920680A76B802D5CF54F9EDB /* Pods */ = {
@@ -297,14 +308,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C99413E5DD394AF487C190A656064424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F900782F1E04594293EC139437401C6E /* HKStorageManager.framework */,
+				739739104CCF178D6A01EB16D2CB4313 /* Pods_HKStorageManager_Example.framework */,
+				C30A1AAC6A8A0834BBDFCE85598669B6 /* Pods_HKStorageManager_Tests.framework */,
+				48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3CCEDD731DDCA5A2209EB1DC95DA6106 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				B09C9783CD3A6FCB7027E9CFD67A8662 /* Development Pods */,
+				0B1BF91E6C8A95ECB46FC7726C546E9C /* Frameworks */,
 				C62D92DA920680A76B802D5CF54F9EDB /* Pods */,
-				B4CEE0112DEC43707A86C8D75741F2F1 /* Products */,
+				C99413E5DD394AF487C190A656064424 /* Products */,
 				47BB464A4153CDF3666F7E9E7AF7CFE5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -320,15 +342,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD829979394EBFE3293337A9E5AFACE /* Headers */ = {
+		5DB8DC6BFE3AE65246A970C7F6D38021 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4585BCF5FCC10FBE0D68BFD5D9E35F3 /* YYCache-umbrella.h in Headers */,
-				A2889C98BA4289C4A648FBAEC4CA45BB /* YYCache.h in Headers */,
-				7FD8C203B9C60EC7C72DE623D27EE5E8 /* YYDiskCache.h in Headers */,
-				E081A2BCA7E625121248B630F72F8122 /* YYKVStorage.h in Headers */,
-				02B3F7473F98D0A5F211A0DD4BA29862 /* YYMemoryCache.h in Headers */,
+				5C15CF6758469E316896C3A4B5A13DF7 /* HKStorageManager-umbrella.h in Headers */,
+				34028A10FB59A720F3B48BC2DAA55EAA /* HKStorageManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +356,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				04350AF47250CFEF6E8A0E030B887872 /* Pods-HKStorageManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B5E72FBAB99BA02A85AB3823101711 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CD4AEF87CC7234EA205D35B1AC7B54 /* YYCache-umbrella.h in Headers */,
+				6A564CE1CD6CD11CA6B1D0804FBA9999 /* YYCache.h in Headers */,
+				94DF8D6E8BDAB601D936239ACB7A23B2 /* YYDiskCache.h in Headers */,
+				81D5528621EA60CE49F839CB6FC94EE4 /* YYKVStorage.h in Headers */,
+				9B2D164C766A7506A307F1B441F6A182 /* YYMemoryCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +393,25 @@
 			productReference = C30A1AAC6A8A0834BBDFCE85598669B6 /* Pods_HKStorageManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		44C6D7D64C02A2CB01402F441D159F3F /* HKStorageManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D497542CE2638D1661621CA5E2C0FC56 /* Build configuration list for PBXNativeTarget "HKStorageManager" */;
+			buildPhases = (
+				5DB8DC6BFE3AE65246A970C7F6D38021 /* Headers */,
+				3BB0F1EAD9A9FB8048B0D2898FD3109F /* Sources */,
+				2C00F0575CB36247E630E9BB385C33A7 /* Frameworks */,
+				7FDF8C66359B65D21E321AADD84E70A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B8876FE1E48E09CE6337D2D5D57447 /* PBXTargetDependency */,
+			);
+			name = HKStorageManager;
+			productName = HKStorageManager;
+			productReference = F900782F1E04594293EC139437401C6E /* HKStorageManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B2973499861452E7FBEFDF933D7D0294 /* Pods-HKStorageManager_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74909FCBB29477050E51C9580B39142A /* Build configuration list for PBXNativeTarget "Pods-HKStorageManager_Example" */;
@@ -384,12 +434,12 @@
 		};
 		CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C04EBA25D97A975D187A83C2F55CF5E6 /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildConfigurationList = DF88B26B0C66C6EF530BAE4E7BF04179 /* Build configuration list for PBXNativeTarget "YYCache" */;
 			buildPhases = (
-				9DD829979394EBFE3293337A9E5AFACE /* Headers */,
-				05EB49FF1FF3944AAA9B23FDC692EDDE /* Sources */,
-				7F5D5F0047B3B8F3695994AC7243EBAA /* Frameworks */,
-				4843329A918E7643AD819D820FBFBD78 /* Resources */,
+				B5B5E72FBAB99BA02A85AB3823101711 /* Headers */,
+				9DCB4C6A4685D44C418336B7F954B816 /* Sources */,
+				AD34D324FA4A2B6B1E97A1DBDFC705CA /* Frameworks */,
+				78C20EAFA8E068CA5BF82470BFF0C1FB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -418,7 +468,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B4CEE0112DEC43707A86C8D75741F2F1 /* Products */;
+			productRefGroup = C99413E5DD394AF487C190A656064424 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -438,7 +488,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4843329A918E7643AD819D820FBFBD78 /* Resources */ = {
+		78C20EAFA8E068CA5BF82470BFF0C1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDF8C66359B65D21E321AADD84E70A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,18 +512,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05EB49FF1FF3944AAA9B23FDC692EDDE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C1D8CDF9A6C64F6DA4BF65DA4F79D9A /* YYCache-dummy.m in Sources */,
-				D732C38C09B640EDD4E59C8D3E251337 /* YYCache.m in Sources */,
-				A2B729F13B10E07CE64AFE1066A4A1F9 /* YYDiskCache.m in Sources */,
-				483FFD6BE96363762FB1456F7725C9D2 /* YYKVStorage.m in Sources */,
-				1FCBFD6B063C89FCEA4AE7E8570B20EA /* YYMemoryCache.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		282F6A117289E18FE03915CD10DC4FAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,11 +520,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3BB0F1EAD9A9FB8048B0D2898FD3109F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D48CB6A8066B7C1A07B2E69A891D14 /* HKStorageManager-dummy.m in Sources */,
+				2E3307C362A57A01E123E37F6F46AF14 /* HKStorageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CCF61BAC6DD2BA4CB5820E4CAAE070F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				54207A21AC9767DB3534467E3E386499 /* Pods-HKStorageManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCB4C6A4685D44C418336B7F954B816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB648ECE4C9C24A9F5B7BEF184BD83EA /* YYCache-dummy.m in Sources */,
+				A5EE73381DA1F118A465E779A82D1E4A /* YYCache.m in Sources */,
+				6405827523465EC52794B3A0C48A7060 /* YYDiskCache.m in Sources */,
+				D1D58F746157456D13FD0506EC0D12E5 /* YYKVStorage.m in Sources */,
+				F2F7179F18418B677E1BC06E51C4563C /* YYMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,17 +564,17 @@
 			target = 44C6D7D64C02A2CB01402F441D159F3F /* HKStorageManager */;
 			targetProxy = C17EF8EFE5200E0D17D0B7706A40715F /* PBXContainerItemProxy */;
 		};
+		92B8876FE1E48E09CE6337D2D5D57447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
+			targetProxy = 31CEEC6E5EBFF1D7D3801B2DA7DC794F /* PBXContainerItemProxy */;
+		};
 		A8367BDDA47B40284E731848EF215CB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HKStorageManager_Example";
 			target = B2973499861452E7FBEFDF933D7D0294 /* Pods-HKStorageManager_Example */;
 			targetProxy = E4A396D56FB0547F1147F6B6CA720F17 /* PBXContainerItemProxy */;
-		};
-		CC7841A64943FE1E93F205D225BE0B22 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYCache;
-			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
-			targetProxy = 2C677FBE562E5686EA157B78FD87FB92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -607,6 +673,69 @@
 			};
 			name = Release;
 		};
+		5506E73E9C9310346F074B4C48B77143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C81E96B67D5CA5B4DE1F86E9380ECD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DD992FEC310FE557934106EF430D11 /* HKStorageManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HKStorageManager/HKStorageManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKStorageManager/HKStorageManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HKStorageManager/HKStorageManager.modulemap";
+				PRODUCT_MODULE_NAME = HKStorageManager;
+				PRODUCT_NAME = HKStorageManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -671,6 +800,38 @@
 			};
 			name = Debug;
 		};
+		837F942F92B987D4A9A1014D0EE42003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DD992FEC310FE557934106EF430D11 /* HKStorageManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HKStorageManager/HKStorageManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKStorageManager/HKStorageManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HKStorageManager/HKStorageManager.modulemap";
+				PRODUCT_MODULE_NAME = HKStorageManager;
+				PRODUCT_NAME = HKStorageManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8CCA377C8048E2B37C80D69E7FD3BE5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F96B22318C26BA466EDACAF89D6E9086 /* Pods-HKStorageManager_Tests.debug.xcconfig */;
@@ -698,51 +859,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		98DF1AD0533E08EA35E4ABEB00BF22FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 026C7EE4B52186CBBE9AEEA7CBC1B135 /* HKStorageManager.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		99D18EE236DD6A57B0E1821CE9EEF6C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
-				PRODUCT_MODULE_NAME = YYCache;
-				PRODUCT_NAME = YYCache;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -783,19 +899,6 @@
 			};
 			name = Release;
 		};
-		C174468921B1FCF8FDE67EBA761FC96F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 026C7EE4B52186CBBE9AEEA7CBC1B135 /* HKStorageManager.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		C7379DD02A8C01E19FE8386C8A8075D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F24F9E8A795B0F1EE7D6C1CBEEC43AA /* Pods-HKStorageManager_Example.debug.xcconfig */;
@@ -829,7 +932,7 @@
 			};
 			name = Debug;
 		};
-		E95A1D8179BE44C4F43866A2ACA054BD /* Release */ = {
+		F327B373B6479A5E83329EF433C249EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */;
 			buildSettings = {
@@ -855,11 +958,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -882,29 +984,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91FB7B0AB74F687B74339FE80F2E420F /* Build configuration list for PBXAggregateTarget "HKStorageManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C174468921B1FCF8FDE67EBA761FC96F /* Debug */,
-				98DF1AD0533E08EA35E4ABEB00BF22FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C04EBA25D97A975D187A83C2F55CF5E6 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				99D18EE236DD6A57B0E1821CE9EEF6C3 /* Debug */,
-				E95A1D8179BE44C4F43866A2ACA054BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C4A1871C0C05D4A7739064542A2F33E2 /* Build configuration list for PBXNativeTarget "Pods-HKStorageManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CCA377C8048E2B37C80D69E7FD3BE5A /* Debug */,
 				B6843D036146BE7E5C17637AFE9F611E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D497542CE2638D1661621CA5E2C0FC56 /* Build configuration list for PBXNativeTarget "HKStorageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C81E96B67D5CA5B4DE1F86E9380ECD4 /* Debug */,
+				837F942F92B987D4A9A1014D0EE42003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF88B26B0C66C6EF530BAE4E7BF04179 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F327B373B6479A5E83329EF433C249EB /* Debug */,
+				5506E73E9C9310346F074B4C48B77143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

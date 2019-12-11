@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HKStorageManager.h"
 
 FOUNDATION_EXPORT double HKStorageManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char HKStorageManagerVersionString[];
