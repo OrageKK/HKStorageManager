@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [HKStorageManager setObjectWithType:iComeStorage_DiskCache value:@"你好" forKey:@"123"];
+    [HKStorageManager setObjectWithType:HKStorage_DiskCache value:@"你好" forKey:@"123"];
     NSLog(@"已经存储了");
     
     NSString *temp = (NSString *)[HKStorageManager objectWithType:HKStorage_DiskCache key:@"123"];
