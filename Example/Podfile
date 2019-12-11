@@ -2,15 +2,12 @@ use_frameworks!
 
 platform :ios, '8.0'
 
-target 'YYCacheManager_Example' do
-  pod 'YYCacheManager', :path => '../'
-	
-  target 'YYCacheManager_Tests' do
+target 'HKStorageManager_Example' do
+  pod 'HKStorageManager', :path => '../'
+
+  target 'HKStorageManager_Tests' do
     inherit! :search_paths
 
-    pod 'Specta'
-    pod 'Expecta'
-    pod 'FBSnapshotTestCase'
-    pod 'Expecta+Snapshots'
+    
   end
 end

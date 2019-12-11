@@ -1,0 +1,29 @@
+{
+  "name": "HKStorageManager",
+  "version": "0.1.0",
+  "summary": "A short description of YYCacheManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/oragekk/YYCacheManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "oragekk": "oragekk@163.com"
+  },
+  "source": {
+    "git": "https://github.com/oragekk/YYCacheManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YYCacheManager/Classes/**/*",
+  "requires_arc": true,
+  "frameworks": "UIKit",
+  "dependencies": {
+    "YYCache": [
+
+    ]
+  }
+}
